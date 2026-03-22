@@ -31,4 +31,7 @@ print(subarrays_with_atmost_k_odds(arr, k))
 # Trick Question
 # Count of subarrays with exact K odd numbers = Count of subarrays with atmost K odd numbers - Count of subarrays with atmost K-1 odd numbers
 print(subarrays_with_atmost_k_odds(arr, k)- subarrays_with_atmost_k_odds(arr, k-1))
-    
+
+# SUBMIT LINKS
+# https://www.geeksforgeeks.org/problems/count-subarray-with-k-odds/1
+# https://leetcode.com/problems/count-number-of-nice-subarrays/
